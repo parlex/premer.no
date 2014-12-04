@@ -1,9 +1,13 @@
-.orange-text{
+.text-orange{
     color: #eea236;
 }
 
-.black-text{
+.text-black{
     color: #000000;
+}
+
+.text-blue{
+    color: cornflowerblue;
 }
 
 .bg-blue{

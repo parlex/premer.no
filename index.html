@@ -25,28 +25,33 @@
 	</div>
 
 	<div class="row">
+
+
 		<div class="col-md-4">
-			<h4>Planned Features</h4>
-			<div class="well well-sm text-center bg-blue">
-				<p>Run the git log script every 5 minutes, to maintain the latest commits feature</p>
-			</div>
-			<div class="well well-sm text-center bg-blue">
-				<p>Start developing the main page, to get some real content</p>
-			</div>
-			<div class="well well-sm text-center bg-blue">
-				<p>Make a better header for the site.</p>
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="text-blue">Planned Features</h4>
+				</div>
+				<ul class="list-group">
+					<li class="list-group-item bg-blue">Run the git log script every 5 minutes, to maintain the latest commits feature</li>
+					<li class="list-group-item bg-blue">Start developing the main page, to get some real content</li>
+					<li class="list-group-item bg-blue">Make a better header for the site.</li>
+				</ul>
 			</div>
 		</div>
-
 		<div class="col-md-6">
-			<h4>Latest commits</h4>
-			<div ng-controller="JsonReader" class="list-group">
-				<div class="list-group-item" ng-repeat="git in parsedJson | limitTo: 5">
-					<a ng-href="https://github.com/parlex/premer.no/commit/{{git.commit}}">
-						<h4 class="list-group-item-heading">{{git.author}}</h4>
-						<p class="list-group-item-text" >{{git.message}}</p>
-						<p class="list-group-item-text text-muted text-right">{{git.date}}</p>
-					</a>
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="text-blue">Latest commits</h4>
+				</div>
+				<div ng-controller="JsonReader" class="list-group">
+					<div class="list-group-item" ng-repeat="git in parsedJson | limitTo: 5">
+						<a ng-href="https://github.com/parlex/premer.no/commit/{{git.commit}}">
+							<h4 class="list-group-item-heading">{{git.author}}</h4>
+							<p class="list-group-item-text text-orange" >{{git.message}}</p>
+							<p class="list-group-item-text text-muted text-right">{{git.date}}</p>
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
