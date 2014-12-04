@@ -6,7 +6,10 @@
 	<script type="text/javascript" src="bower_components/angularjs/angular.min.js"></script>
 	<script type="text/javascript" src="js/premerno.js"></script>
 
+
 	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/premercss.css"/>
+
 	<link rel="icon" type="image/png" href="favicon.ico">
 	<meta name="viewport" charset="UTF-8" content="width=device-width, initial-scale=1">
 	<title>Premer.no</title>
@@ -14,34 +17,34 @@
 <body>
 <div class="container">
 	<div class="row page-header">
-		<h3 class="text-center">
+		<h1 class="text-center">
 			<span class="glyphicon glyphicon-heart" aria-hidden="true"/>
 			Welcome to premer.no
 			<span class="glyphicon glyphicon-heart" aria-hidden="true"/>
-		</h3>
+		</h1>
 	</div>
 
 	<div class="row">
 		<div class="col-md-4">
-			<h4>Development Log</h4>
-			<div class="well well-md">
-				<p class="text-left text-muted">03.12.14</p><p class="text-center">Configuring DNS</p>
+			<h4>Planned Features</h4>
+			<div class="well well-sm text-center bg-blue">
+				<p>Run the git log script every 5 minutes, to maintain the latest commits feature</p>
 			</div>
-			<div class="well well-md text-center">
-				<p class="text-left text-muted">02.12.14</p><p class="text-center">Setting Up Webserver</p>
+			<div class="well well-sm text-center bg-blue">
+				<p>Start developing the main page, to get some real content</p>
 			</div>
-			<div class="well well-md text-center">
-				<p class="text-left text-muted">02.12.14</p><p class="text-center">Stopped Testing With Different Colors</p>
+			<div class="well well-sm text-center bg-blue">
+				<p>Make a better header for the site.</p>
 			</div>
 		</div>
 
 		<div class="col-md-6">
-			<h4 class="header">Latest commits</h4>
+			<h4>Latest commits</h4>
 			<div ng-controller="JsonReader" class="list-group">
 				<div class="list-group-item" ng-repeat="git in parsedJson | limitTo: 5">
 					<a ng-href="https://github.com/parlex/premer.no/commit/{{git.commit}}">
-						<h4 class="list-group-item-heading" style="color: #000000;">{{git.author}}</h4>
-						<p class="list-group-item-text" style="color: #eea236;">{{git.message}}</p>
+						<h4 class="list-group-item-heading">{{git.author}}</h4>
+						<p class="list-group-item-text" >{{git.message}}</p>
 						<p class="list-group-item-text text-muted text-right">{{git.date}}</p>
 					</a>
 				</div>
