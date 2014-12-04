@@ -1,80 +1,102 @@
+[{
+  "commit": "1c87e6845da326489e3c14ce22a8875c6f21ddeb",
+  "author": "Alexander Premer <parlex@premer.no>",
+  "date": "72 minutes ago",
+  "message": "trying-out-some-log-feed-for-git"
+},
 {
- user: parlex,
- msg: added some content to the site, such that people that are interested can keep up to date, and especially founder of lindquister Soloutions.,
- since: 5 hours ago
-}
+  "commit": "f02be22cae960db40a767ea040f5134dd170a9b8",
+  "author": "parlex <premer@outlook.com>",
+  "date": "6 hours ago",
+  "message": "added-some-content-to-the-site-such-that-people-that-are-interested-can-keep-up-to-date-and-especially-founder-of-lindquister-Soloutions"
+},
 {
- user: parlex,
- msg: updated gitignore and index.html,
- since: 15 hours ago
-}
+  "commit": "50febb0faec482d07171322d519b7304f516ce11",
+  "author": "parlex <premer@outlook.com>",
+  "date": "16 hours ago",
+  "message": "updated-gitignore-and-index.html"
+},
 {
- user: parlex,
- msg: added favicon,
- since: 20 hours ago
-}
+  "commit": "022f24d855afb35aa90ff06df3018cab9359b5db",
+  "author": "parlex <premer@outlook.com>",
+  "date": "21 hours ago",
+  "message": "added-favicon"
+},
 {
- user: Alexander Premer,
- msg: now uses bower components,
- since: 20 hours ago
-}
+  "commit": "1882f30a01ebdc9f5a303f001af90548bed55405",
+  "author": "Alexander Premer <parlex@premer.no>",
+  "date": "21 hours ago",
+  "message": "now-uses-bower-components"
+},
 {
- user: parlex,
- msg: oh well,
- since: 3 weeks ago
-}
+  "commit": "06d7454e18ba3d7949908d3e651bf18ac0967eea",
+  "author": "parlex <premer@outlook.com>",
+  "date": "3 weeks ago",
+  "message": "oh-well"
+},
 {
- user: parlex,
- msg: added secions,
- since: 3 weeks ago
-}
+  "commit": "faed08cf7564057f64ef9cb00d8999b8bae63539",
+  "author": "parlex <premer@outlook.com>",
+  "date": "3 weeks ago",
+  "message": "added-secions"
+},
 {
- user: parlex,
- msg: started over again,
- since: 3 weeks ago
-}
+  "commit": "83e35b4e58fdbf9a04ba5c3955e7b6abf8ebf74e",
+  "author": "parlex <premer@outlook.com>",
+  "date": "3 weeks ago",
+  "message": "started-over-again"
+},
 {
- user: parlex,
- msg: added gist,
- since: 3 weeks ago
-}
+  "commit": "7f569260cf1019c384619e79e8aa24c39e4f23e2",
+  "author": "parlex <premer@outlook.com>",
+  "date": "3 weeks ago",
+  "message": "added-gist"
+},
 {
- user: parlex,
- msg: deleted swap file,
- since: 3 weeks ago
-}
+  "commit": "567e53118ab94f0384db07c05ef8a9626a9dc732",
+  "author": "parlex <premer@outlook.com>",
+  "date": "3 weeks ago",
+  "message": "deleted-swap-file"
+},
 {
- user: parlex,
- msg: added gitignore,
- since: 3 weeks ago
-}
+  "commit": "a291732207fd5de64551edd532db6662a806e508",
+  "author": "parlex <premer@outlook.com>",
+  "date": "3 weeks ago",
+  "message": "added-gitignore"
+},
 {
- user: parlex,
- msg: updated all,
- since: 3 weeks ago
-}
+  "commit": "5e627fa8b2dc9bae1d826d02adc730e04998304c",
+  "author": "parlex <premer@outlook.com>",
+  "date": "3 weeks ago",
+  "message": "updated-all"
+},
 {
- user: Alexander Premer,
- msg: nothing valueable was done in these files,
- since: 3 months ago
-}
+  "commit": "1142f13d6d23bddccfb1ac884284b2f2e1621370",
+  "author": "Alexander Premer <Premer@outlook.com>",
+  "date": "3 months ago",
+  "message": "nothing-valueable-was-done-in-these-files"
+},
 {
- user: Alexander Premer,
- msg: latest changes where im just testing some techniques,
- since: 3 months ago
-}
+  "commit": "b093be5be77710f0689fe214fc53cc90cca91366",
+  "author": "Alexander Premer <Premer@outlook.com>",
+  "date": "3 months ago",
+  "message": "latest-changes-where-im-just-testing-some-techniques"
+},
 {
- user: Alexander Premer,
- msg: added services and about,
- since: 3 months ago
-}
+  "commit": "0b949ea5d71194116703146ce1e5acea2d6b24f5",
+  "author": "Alexander Premer <Premer@outlook.com>",
+  "date": "3 months ago",
+  "message": "added-services-and-about"
+},
 {
- user: Alexander Premer,
- msg: Added the bootstrap structure and the index html,
- since: 3 months ago
-}
+  "commit": "7d48c55dcd4b264980e7a1956044ebc91c241aef",
+  "author": "Alexander Premer <Premer@outlook.com>",
+  "date": "3 months ago",
+  "message": "Added-the-bootstrap-structure-and-the-index-html"
+},
 {
- user: parlex,
- msg: Initial commit,
- since: 3 months ago
-}
+  "commit": "afd1aee0a3a539c07389f095ae528d144072e536",
+  "author": "parlex <premer@outlook.com>",
+  "date": "3 months ago",
+  "message": "Initial-commit"
+}]

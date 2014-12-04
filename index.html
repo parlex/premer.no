@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="premerApp">
 <head lang="en">
 	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
 	<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="bower_components/angularjs/angular.min.js"></script>
+	<script type="text/javascript" src="js/premerno.js"></script>
 
 	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css"/>
 	<link rel="icon" type="image/png" href="favicon.ico">
@@ -30,6 +32,19 @@
 			</div>
 			<div class="well well-md text-center">
 				<p class="text-left text-muted">02.12.14</p><p class="text-center">Stopped Testing With Different Colors</p>
+			</div>
+		</div>
+
+		<div class="col-md-6">
+			<h4 class="header">Latest commits</h4>
+			<div ng-controller="JsonReader" class="list-group">
+				<div class="list-group-item" ng-repeat="git in parsedJson | limitTo: 5">
+					<a ng-href="https://github.com/parlex/premer.no/commit/{{git.commit}}">
+						<h4 class="list-group-item-heading" style="color: #000000;">{{git.author}}</h4>
+						<p class="list-group-item-text" style="color: #eea236;">{{git.message}}</p>
+						<p class="list-group-item-text text-muted text-right">{{git.date}}</p>
+					</a>
+				</div>
 			</div>
 		</div>
 	</div>
