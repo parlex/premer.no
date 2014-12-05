@@ -5,23 +5,23 @@
 	<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="bower_components/angularjs/angular.min.js"></script>
 	<script type="text/javascript" src="js/premerno.js"></script>
+	<!--Thanks to https://github.com/alvarotrigo/funnyText.js for this cool piece of code-->
+	<script type="text/javascript" src="js/jquery.funnyText.js"></script>
 
 
 	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css"/>
 	<link rel="stylesheet" type="text/css" href="css/premercss.css"/>
+	<!--Thanks to https://github.com/alvarotrigo/funnyText.js for this cool piece of code-->
+	<link rel="stylesheet" type="text/css" href="css/jquery.funnyText.css"/>
 
 	<link rel="icon" type="image/png" href="favicon.ico">
 	<meta name="viewport" charset="UTF-8" content="width=device-width, initial-scale=1">
 	<title>Premer.no</title>
 </head>
-<body>
+<body ng-controller="MainController">
 <div class="container">
 	<div class="row page-header">
-		<h1 class="text-center">
-			<span class="glyphicon glyphicon-heart" aria-hidden="true"/>
-			Welcome to premer.no
-			<span class="glyphicon glyphicon-heart" aria-hidden="true"/>
-		</h1>
+		<div class="mySelector">Premer.no</div>
 	</div>
 
 	<div class="row">
@@ -39,6 +39,7 @@
 				</ul>
 			</div>
 		</div>
+
 		<div class="col-md-6">
 			<div class="panel panel-default">
 				<div class="panel-heading">
