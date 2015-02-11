@@ -2,6 +2,8 @@
 
 # Use this one-liner to produce a JSON literal from the Git log:
 
+cd ~/../../var/www/html/premer.no/
+
 git log \
     -n 15 --pretty=format:'{%n  "commit": "%H",%n  "author": "%an <%ae>",%n  "date": "%ar",%n  "message": "%f"%n},' \
     $@ | \
