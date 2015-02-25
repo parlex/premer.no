@@ -1,3 +1,5 @@
 *.*~
 .idea/
 gitlog.json
+.gitignore
+logger.sh
